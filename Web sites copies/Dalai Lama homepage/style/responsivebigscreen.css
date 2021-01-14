@@ -1,0 +1,118 @@
+@media only screen and (min-width: 1013px) {
+
+    /* Homepage Styles */
+    /* main */
+
+    main {
+        max-width: 1180px;
+        margin: 0 auto;
+        padding: 0 2.1em;
+    }
+
+    body {
+        background-position: 50% 99%;
+    }
+
+    .logo__name img {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        max-width: 1600px;
+        max-height: 110px;
+    }
+
+    .responsivebigscreen {
+        display: grid;
+        grid-template-columns: 65% 35%;
+        margin-bottom: 2em;
+        margin-top: 1.2em;
+    }
+
+    .latest-news {
+        border-right: solid #3335 1px;
+    }
+
+    .latest-news .section-heading,
+    .schedule .section-heading {
+        font-size: 1.2rem;
+    }
+
+    .latest-news__preview {
+        width: 32%
+    }
+
+    .news-body {
+        font-size: 1.1em
+    }
+
+    .news__title {
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+
+    .responsive-video-pics {
+        margin-bottom: 3em;
+    }
+
+    .social-media-feed {
+        display: grid;
+        grid-gap: 1.8em;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-bottom: 55em;
+    }
+
+    .social-media-feed .border {
+        border: solid thin #3333;
+    }
+
+    /* footer */
+
+    .footer-container {
+        padding: 3.8vh;
+    }
+
+    .copyright p {
+        font-size: 1rem;
+        font-weight: bold;
+        color: black;
+        padding: 0.4em
+    }
+    
+    /* HIDDEN */
+    .menuIcon,
+    .live-webcast-logo {
+        display: none;
+    }
+    
+    /* ============= NEWS Styles ============= */
+    /* ======================================= */
+
+    /* Main */
+    
+    .beegscreen-flex {
+        display: flex;
+
+    }
+    
+    .bigscreen-news-intro {
+        display: flex;
+    }
+    
+    .intro-left-block {
+        width: 60%;
+    }
+    
+    .news-schedule {
+        display: block;
+        width: 40%;
+        border-left: solid 1px #3335;
+        margin-left: 2em;
+    }
+    
+    .news-latest-news {
+        border: none;
+    }
+    
+    
+
+}

@@ -1,0 +1,214 @@
+@media only screen and (min-width: 768px) {
+    body {
+        margin: 0 0;
+    }
+
+    section {
+        padding: 0.8em 2em;
+    }
+
+    /* Navigation */
+
+    nav ul {
+        background-color: var(--clr-golden);
+        border-top: none;
+    }
+
+    nav a {
+        color: black;
+        font-weight: 900;
+        text-transform: uppercase;
+        font-size: 1.2rem;
+        border-right: none;
+    }
+
+    /* Buttons */
+
+    .schedule__btn {
+        padding: 0.8em 1.7em;
+    }
+
+
+    .view-message-btn {
+        display: inline-block;
+        background-color: var(--clr-golden);
+        margin-left: auto;
+        padding: 0.8em 1em;
+        margin-bottom: 1.2em;
+    }
+
+    .view-message-btn a {
+        color: black;
+        font-weight: 600;
+    }
+
+    /* Homepage Styles */
+    /* main */
+
+    .section-heading {
+        font-size: 1.3rem;
+    }
+
+    body {
+        background-image: url(../assets/index/the-potala.jpg);
+        background-repeat: no-repeat;
+        background-position: 50% 93%;
+    }
+
+    .logo__name img {
+        display: inline-block;
+        padding: 1.5em 21em;
+    }
+
+    .intro picture {
+        min-width: 100%;
+    }
+
+    .intro__sub-container {
+        display: flex;
+        padding: 0.8em 0.8em;
+        padding-bottom: 0;
+        background-color: #3332;
+        font-weight: 600;
+    }
+
+    .intro p:first-child {
+        max-width: 60%;
+        line-height: 1.5em;
+    }
+
+
+    .latest-news .section-heading,
+    .schedule .section-heading {
+        font-size: 1.5rem;
+    }
+
+    .news-responsive {
+        display: flex;
+        -webkit-display: flex;
+        justify-content: space-between;
+    }
+
+
+    .latest-news__preview {
+        display: flex;
+        flex-flow: column;
+        width: 19em;
+    }
+
+    .latest-news__preview img {
+        padding-bottom: 1em;
+    }
+
+    .news__title {
+        color: black;
+        font-weight: 900;
+        font-size: 1.3rem
+    }
+
+    .news-body {
+        display: block;
+        line-height: 1.6em;
+    }
+
+    .responsive-video-pics {
+        -webkit-display: flex;
+        display: flex;
+        margin-bottom: 34em;
+    }
+
+    .responsive-video-pics section {
+        width: 50%;
+    }
+
+    .responsive-section-container {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .responsive-video-pics .section__preview {
+        grid-template-columns: 40% 60%;
+        grid-gap: 0.3em;
+    }
+
+    .responsive-video-pics .section__preview:nth-of-type(2n+1) {
+        padding-right: 0.5em
+    }
+
+    .pictures__main__gallery {
+        padding-bottom: 0.8em
+    }
+
+    .video__main .section-date,
+    .pictures__main .section-date {
+        font-size: 1rem;
+    }
+
+
+    /* footer */
+    .footer-container {
+        padding: 9vh;
+    }
+
+    .copyright {
+        padding: 0.8em 0;
+    }
+
+    .copyright p {
+        font-size: 1.3rem;
+        justify-content: justify;
+        flex-wrap: nowrap;
+    }
+
+    /* HIDDEN */
+
+    .menu-icon {
+        display: none;
+    }
+
+    /* ============= NEWS Styles ============= */
+    /* ======================================= */
+
+    /* Main */
+    
+    .body-header {
+        display: flex;
+        margin-top: 1.5em;
+        margin-bottom: 0.5em;
+    }
+    
+    .body-header h1 {
+        margin-right: auto;
+        font-size: 2em
+    }
+    
+    .archive-btn {
+        margin-left: 1.5em;
+    }
+
+    .load-more-btn {
+        margin-bottom: 32rem;
+    }
+
+    .news_sub-container {
+        background-color: white;
+        display: block;
+    }
+
+    .news_sub-container .section-date {
+        color: var(--clr-light);
+        font-size: 1rem;
+        margin-top: 0.5em;
+        margin-bottom: 0;
+    }
+
+    .main-news-body {
+        display: block;
+        font-size: 1.5rem;
+        font-weight: 300;
+        padding-top: 1em;
+        line-height: 1.5em;
+    }
+
+}
